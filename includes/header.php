@@ -19,10 +19,13 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
-
+<!-- 
     <link href="css/video-js.css" rel="stylesheet">
     <script src="js/video.js"></script>
-    <script src="js/videojs-contrib-hls.js"></script>
+    <script src="js/videojs-contrib-hls.js"></script> -->
+
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+
    
 </head>
 
