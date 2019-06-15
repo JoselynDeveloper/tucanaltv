@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     var o = window.location.pathname
     console.log(o)
-    if (o == '/proyectotucanaltv/index.php' || o == '/proyectotucanaltv/') {
+    if (o == '/index.php' || o == '/') {
         $('body').css({
             background: 'url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center',
             backgroundSize: 'cover'
@@ -66,19 +66,14 @@ $(document).ready(function () {
 
 
     //NABVAR COLOR CONTACTO
-    if(o == '/proyectotucanaltv/contact.php'){
+    if(o == '/contact.php'){
       $('nav').addClass('colorNC')
     }
 
     //Evento de slider
     new WOW().init();
 
-    pruebalastpage();
+    
 })
 
 
-function pruebalastpage(){
-  $('.deportes').click(function(){
-    $('.categoryPageTitle').html('Deportes');
-  })
-}
